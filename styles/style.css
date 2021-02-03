@@ -29,6 +29,14 @@ header nav {
 	flex-grow: 1;
 }
 
+header nav a, .half h2 {
+	color: rgb(252, 55, 184);
+	text-transform: uppercase;
+	font-family: 'Criteria CF';
+	font-weight: 800;
+	font-size: 14px;
+}
+
 header nav a {
 	border-left: 1px solid rgba(252, 55, 184, 0.2);
 	display: flex;
@@ -36,11 +44,6 @@ header nav a {
 	align-items: center;
 	justify-content: center;
 	text-decoration: none;
-	color: rgb(252, 55, 184);
-	text-transform: uppercase;
-	font-family: 'Criteria CF';
-	font-weight: 800;
-	font-size: 14px;
 }
 
 .intro, .projects {
@@ -78,4 +81,79 @@ header nav a {
 .blurb p {
 	margin-bottom: 0.6em;
 	max-width: 860px;
+}
+
+.common {
+	padding: 52px;
+	border-bottom: 1px solid rgba(252, 55, 184, 0.2);
+
+}
+
+.half-container {
+	display: flex;
+}
+
+.half {
+	flex: 1;
+}
+
+.half h2 {
+	margin-bottom: 90px;
+}
+
+.relevant-qualifications h3 {
+	font-size: 32px;
+	line-height: 1.2;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.text-link {
+	text-decoration: none;
+	border-bottom: 1px solid rgb(241, 191, 164);
+	font-style: italic;
+	padding-bottom: 1px;
+	color: #fff;
+}
+
+.relevant-qualifications h4, .taglist li {
+	color: rgb(241, 191, 164);
+	text-transform: uppercase;
+	font-family: 'Criteria CF';
+	font-weight: 800;
+	font-size: 11px;
+	letter-spacing: 0.15em;
+}
+
+.relevant-qualifications p {
+	margin-top: 30px;
+}
+
+.relevant-qualifications .date {
+	font-style: italic;
+	line-height: 1.4;
+	color: #fff;
+	margin-top: 50px;
+}
+
+.self-study h3 {
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.self-study {
+	border-left: 1px solid rgba(252, 55, 184, 0.2);
+}
+
+.taglist li {
+	display: inline-block;
+	border: 1px solid rgb(241, 191, 164);
+	border-radius: 100px;
+	padding: 8px 10px 7px 10px;
+	margin-right: 4px;
+	margin-bottom: 8px;
+}
+
+.taglist {
+	margin-bottom: 30px;
 }
