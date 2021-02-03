@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Argent CF';
+    src: url('../fonts/argentcf-regular-webfont.woff2') format('woff2'),
+         url('../fonts/argentcf-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Argent CF';
+    src: url('../fonts/argentcf-regularitalic-webfont.woff2') format('woff2'),
+         url('../fonts/argentcf-regularitalic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Argent CF';
+    src: url('../fonts/argentcf-light-webfont.woff2') format('woff2'),
+         url('../fonts/argentcf-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Argent CF';
+    src: url('../fonts/argentcf-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/argentcf-lightitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Argent CF';
+    src: url('../fonts/argentcf-thinitalic-webfont.woff2') format('woff2'),
+         url('../fonts/argentcf-thinitalic-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Criteria CF';
+    src: url('../fonts/criteriacf-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/criteriacf-extrabold-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Criteria CF';
+    src: url('../fonts/criteriacf-regular-webfont.woff2') format('woff2'),
+         url('../fonts/criteriacf-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
