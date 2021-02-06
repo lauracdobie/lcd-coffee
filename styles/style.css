@@ -29,6 +29,10 @@ header nav {
 	flex-grow: 1;
 }
 
+em {
+	font-style: italic;
+}
+
 header nav a, .common h2 {
 	color: rgb(252, 55, 184);
 	text-transform: uppercase;
@@ -164,6 +168,8 @@ header nav a {
 	font-size: 80px;
 	color: #fff;
 	line-height: 1.2em;
+	margin-top: 150px;
+	margin-bottom: 10px;
 }
 
 .primary-list li {
@@ -178,4 +184,36 @@ header nav a {
 
 .primary-list li:last-child:after {
 	content: "";
+}
+
+
+.hiring-reasons {
+	margin-top: 55px;
+	
+}
+
+.hiring-reasons li {
+	font-size: 32px;
+	line-height: 1.2;
+	font-weight: 300;
+	padding: 36px 0 36px 50px;
+	border-top: 1px solid rgba(252, 55, 184, 0.1);
+	counter-increment: item;
+}
+
+.hiring-reasons li:before {
+	content: counter(item, decimal-leading-zero);
+	font-family: 'Criteria CF';
+	font-weight: 800;
+	font-size: 11px;
+	letter-spacing: 0.15em;
+	color: rgb(252, 55, 184);
+	width: 0;
+	text-align: right;
+	display: inline-block;
+	transform: translateX(-40px) translateY(-0.6em);
+}
+
+.hiring-reasons em {
+	color: #fff;
 }
