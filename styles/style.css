@@ -31,7 +31,7 @@ header nav {
 
 em {
 	font-style: italic;
-}
+} 
 
 header nav a, .common h2 {
 	color: rgb(252, 55, 184);
@@ -61,6 +61,11 @@ header nav a {
 	top: 0;
 	transform: rotate(-90deg) translateX(-100%);
 	transform-origin: left top;
+	padding: 44px 60px 0 0;
+
+}
+
+h1, .projects h2 {
 	color: rgb(252, 55, 184);
 	text-transform: uppercase;
 	font-family: 'Criteria CF';
@@ -68,18 +73,19 @@ header nav a {
 	font-size: 36px;
 	line-height: 1;
 	letter-spacing: 0.1em;
-	padding: 44px 60px 0 0;
-
 }
 
 .blurb {
-	margin-left:140px;
-	border-left: 1px solid rgba(252, 55, 184, 0.2);
 	padding: 60px 220px 60px 48px;
 	font-size: 32px;
 	font-weight: 300;
 	line-height: 1.2;
 	min-height: 484px;
+}
+
+.blurb, .project-description {
+	margin-left:140px;
+	border-left: 1px solid rgba(252, 55, 184, 0.2);
 }
 
 .blurb p {
@@ -120,7 +126,7 @@ header nav a {
 	color: #fff;
 }
 
-.relevant-qualifications h4, .taglist li {
+.relevant-qualifications h4, .taglist li, .employment-container h4, .qualification h4 {
 	color: rgb(241, 191, 164);
 	text-transform: uppercase;
 	font-family: 'Criteria CF';
@@ -216,4 +222,138 @@ header nav a {
 
 .hiring-reasons em {
 	color: #fff;
+}
+
+.projects .project-description {
+	padding: 52px 52px 60px 48px;
+	min-height: 400px;
+}
+
+.projects .project-description p {
+	font-weight: 100;
+	font-size: 48px;
+	line-height: 1.2;
+	color: #fff;
+	font-style: italic;
+}
+
+.projects .project-description p em {
+	color: rgb(241, 191, 164);
+	display: inline-block;
+}
+
+.inline-icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	background-image: url("../images/projecticon-isolation.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transform: translateY(0.1em);
+}
+
+.projects .project-description .cta-container {
+	display: flex;
+	align-items: center;
+	margin-top: 48px;
+}
+
+.projects .project-description .cta-container .cta {
+	border-top: 1px solid rgba(252, 55, 184, 0.2);
+	border-right: 1px solid rgba(252, 55, 184, 0.2);
+	border-bottom: 1px solid rgba(252, 55, 184, 0.2);
+	padding-left: 48px;
+	transform: translateX(-48px);
+}
+
+.cta p {
+	display: flex;
+	align-items: center;
+}
+
+.projects .project-description .cta-container p {
+	font-size: 32px;
+}
+
+.projects .project-description .cta-container a {
+	text-decoration: none; 
+}
+
+.cta-arrow {
+	display: inline-block;
+	border-left: 1px solid rgba(252, 55, 184, 0.2);
+	width: 140px;
+	height: 140px;
+	margin-left: 48px;
+	background-image: url(../images/cta-arrow@2x.png);
+	background-size: 62px 36px;
+	background-repeat: no-repeat;
+	background-position: center	center;
+}
+
+.projects .project-description .cta-container .conjunction {
+	font-family:'Criteria CF';
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 0.15em;
+	color: rgb(241, 191, 164);
+}
+
+.projects .project-description .cta-container .text-link {
+	margin-left: 48px;
+}
+
+.employment-container {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	margin-top: 60px;
+}
+
+.employment-container h3 {
+	color: #fff;
+	line-height: 1.1em;
+}
+
+.current-employment-container h3 {
+	font-size: 32px;
+	margin-top: 16px;
+	margin-bottom: 32px;
+}
+
+.heading-group {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.current-employment-container li {
+	line-height: 1.2;
+	margin-bottom: 16px;
+}
+
+.current-employment-container li:before {
+	content: "—";
+	color: rgb(252, 55, 184);
+	transform: translateX(-30px);
+	text-align: right;
+	display: inline-block;
+	width: 0;
+}
+
+.past-employment-container {
+	padding-left: 52px;
+}
+
+.past-employment {
+	border-top: 1px solid rgba(252, 55, 184, 0.1);
+	padding: 26px;
+}
+
+.past-employment:last-child {
+	border-bottom: 1px solid rgba(252, 55, 184, 0.1);
+}
+
+.past-employment h3 {
+	margin-top: 2px;
 }
