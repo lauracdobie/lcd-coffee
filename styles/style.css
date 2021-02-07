@@ -446,7 +446,8 @@ footer .external-links {
 	body{    
 		background-color: #fff;
 		color: #240825;
-		font-size: 12pt;
+		font-size: 8pt;
+		line-height: 1.3;
 	}
 	
 	header {
@@ -458,7 +459,7 @@ footer .external-links {
 	}
 	
 	.logo {
-		padding: 35px 52px 37px 48px;
+		padding: 0.9cm;
 		flex-grow: 0;
 	}
 	
@@ -469,32 +470,85 @@ footer .external-links {
 	header nav {
 		display: none;
 	}
-	
-	main {
-		width: 100%; 
-		float: none;
+
+	h2 {
+		font-size: 6pt;
+	}
+
+	.half h2 {
+		margin-bottom: 0.5cm;
+	}
+
+	.relevant-qualifications h3 {
+		font-size: 16pt;
 	}
 	
 	.intro .vertical-heading {
-		left: 3cm;
+		left: 2.5cm;
 		top: 1.3cm;
 		transform: rotate(0deg) translateX(0);
 		padding: 0;
 	}
+
 	.intro {
 		position: static;
 	}
 	
 	.blurb {
-		padding: 1cm 52px 1cm 48px;
+		padding: 1cm 1cm 0.8cm 1cm;
 		margin-left: 0px;
 		border-left: none;
 		min-height: 0;
-		font-size: 14pt;
+		font-size: 16pt;
+	}
+
+	.relevant-qualifications h4, .taglist li, .employment-container h4, .qualification h4 {
+		font-size: 5pt;
+	}
+
+	.taglist li {
+		padding: 2.5pt 4pt 1pt 4pt;
+		margin-right: 0.01cm;
+		margin-bottom: 0.08cm;
+	}
+
+	.taglist {
+		margin-bottom: 0.2cm;
+	}
+
+	.relevant-qualifications .date {
+		margin-top: 0.5cm;
 	}
 	
 	.relevant-qualifications h3, .text-link, .relevant-qualifications .date, .self-study h3, .primary-list, .hiring-reasons em, .projects .project-description p, .employment-container h3, .qualification h3 {
 		color: #240825;
+	}
+
+	.common {
+		padding: 1cm;
+	}
+
+	.hiring-reasons {
+		margin-top: 0.5cm;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+
+	.hiring-reasons li {
+		font-size: 10pt;
+		padding: 0.5cm 0.5cm 0.5cm 0.6cm;
+		width: 46%;
+		margin-right: 2%
+	}
+
+	.hiring-reasons li:before {
+		font-size: 5pt;
+		transform: translateX(-0.6cm) translateY(-0.6em);
+	}
+
+	.why-hire-me {
+		page-break-after: always;
 	}
 	
 }
