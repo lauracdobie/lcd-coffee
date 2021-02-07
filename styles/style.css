@@ -3,7 +3,6 @@ body {
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 1.5;
-	
 	background-color: #240825;
 	color: #F1BFA4;
 }
@@ -55,13 +54,13 @@ header nav a {
 	border-bottom: 1px solid rgba(252, 55, 184, 0.2);
 }
 
-.vertical-heading {
+.intro .vertical-heading, .projects .vertical-heading {
 	position: absolute;
 	left: 0;
 	top: 0;
 	transform: rotate(-90deg) translateX(-100%);
 	transform-origin: left top;
-	padding: 44px 60px 0 0;
+	padding: 54px 60px 0 0;
 
 }
 
@@ -441,3 +440,78 @@ footer .external-links {
 	font-size: 11px;
 	letter-spacing: 0.15em;
 }
+
+@media print{  
+  
+	body{    
+		background-color: #fff;
+		color: #240825;
+		font-size: 12pt;
+	}
+	
+	header {
+		height: 3cm;
+	}
+	
+	.logo img {
+		width: 1cm;
+	}
+	
+	.logo {
+		padding: 35px 52px 37px 48px;
+		flex-grow: 0;
+	}
+	
+	h1 {
+		font-size: 12pt;
+	}
+	
+	header nav {
+		display: none;
+	}
+	
+	main {
+		width: 100%; 
+		float: none;
+	}
+	
+	.intro .vertical-heading {
+		left: 3cm;
+		top: 1.3cm;
+		transform: rotate(0deg) translateX(0);
+		padding: 0;
+	}
+	.intro {
+		position: static;
+	}
+	
+	.blurb {
+		padding: 1cm 52px 1cm 48px;
+		margin-left: 0px;
+		border-left: none;
+		min-height: 0;
+		font-size: 14pt;
+	}
+	
+	.relevant-qualifications h3, .text-link, .relevant-qualifications .date, .self-study h3, .primary-list, .hiring-reasons em, .projects .project-description p, .employment-container h3, .qualification h3 {
+		color: #240825;
+	}
+	
+}
+	
+
+
+  
+
+
+/*@media (min-width:1440px) {
+	
+	main {
+		width: 1440px;
+		margin-left: auto;
+		margin-right: auto;
+		border-left: 1px solid rgba(252, 55, 184, 0.2);
+		border-right: 1px solid rgba(252, 55, 184, 0.2);
+	}
+	
+}*/
