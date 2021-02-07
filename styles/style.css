@@ -406,6 +406,52 @@ h1, .projects h2 {
 	margin-bottom: 40px;
 }
 
+.quotes {
+	padding: 52px;
+}
+
+.quotes h2 {
+	margin-bottom: 60px;
+}
+
+.quotes-container {
+	display: grid;
+	grid-template-areas: 
+	'quote quote'
+	'quote quote';
+	grid-template-columns: 1fr 1fr;
+}
+
+.quote:nth-child(even) {
+	margin-left: 32px;
+}
+
+.quote:nth-child(1), .quote:nth-child(2) {
+	border-top: 1px solid rgba(252, 55, 184, 0.1);
+}
+
+
+.quotes-container li {
+	font-size: 32px;
+	line-height: 1.2;
+	font-weight: 300;
+	padding: 36px 0 36px 50px;
+	border-bottom: 1px solid rgba(252, 55, 184, 0.1);
+}
+
+.quotes-container li:before {
+	content: "\201C";
+	font-family: 'Criteria CF';
+	font-weight: 800;
+	font-size: 48px;
+	letter-spacing: 0.15em;
+	color: rgb(252, 55, 184);
+	width: 0;
+	text-align: right;
+	display: inline-block;
+	transform: translateX(-40px) translateY(0.27em);
+}
+
 footer {
 	height: 140px;
 	display: grid;
@@ -440,6 +486,8 @@ footer .external-links {
 	font-size: 11px;
 	letter-spacing: 0.15em;
 }
+
+
 
 @media print{  
   
