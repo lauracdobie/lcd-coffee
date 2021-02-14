@@ -14,6 +14,14 @@ header {
 	border-bottom: 1px solid rgba(252, 55, 184, 0.2);
 }
 
+.deselected {
+	transition: background-color ease-in 0.2s;
+}
+
+.deselected:hover {
+	background-color: rgba(252, 55, 184, 0.1);
+}
+
 .selected {
 	background-color: rgba(252, 55, 184, 0.2);
 
@@ -241,7 +249,7 @@ h1, .projects h2 {
 .projects .project-description p {
 	font-weight: 100;
 	font-size: 48px;
-	line-height: 1.2;
+	line-height: 1.1;
 	color: #fff;
 	font-style: italic;
 }
@@ -418,6 +426,7 @@ h1, .projects h2 {
 
 .quotes {
 	padding: 52px;
+	border-bottom: 1px solid rgba(252, 55, 184, 0.1);
 }
 
 .quotes h2 {
@@ -675,11 +684,94 @@ footer .external-links {
 }
 	
 
+@media (max-width:1024px) {
+	.blurb {
+		padding: 60px 48px 60px 48px;
+	}
 
+	.past-qualifications {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width:960px) {
+	header {
+		height: 100px;
+	}
+
+	.logo img {
+		width: 50px;
+	}
+
+	.logo {
+		padding: 15px 45px;
+	}
+
+	.blurb {
+		font-size: 26px;
+		min-height: 380px;
+	}
+
+	h1, .projects h2 {
+		font-size: 28px;
+	}
+
+	.intro .vertical-heading, .projects .vertical-heading, .projects-wrapper .vertical-heading {
+		padding: 58px 60px 0 0;
+	
+	}
+
+	.half h2 {
+		margin-bottom: 40px;
+	}
+
+	.hiring-reasons {
+		margin-top: 25px;
+		
+	}
+
+	.hiring-reasons li {
+		padding: 28px 0 28px 50px;
+	}
+
+	.primary-list {
+		margin-top: 50px;
+	}
+
+	.primary-list, .project-title h2 {
+		font-size: 60px;
+	}
+
+	.projects .project-description p {
+		font-size: 36px;
+	}
+
+	.employment-container {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.quotes h2 {
+		margin-bottom: 40px;
+	}
+
+	.quotes-container li {
+		font-size: 26px;
+		padding: 0 0 20px 50px;
+		line-height: 1.1;
+	}
+
+	.quotes-container li:before {
+		transform: translateX(-40px) translateY(0.4em);
+	}
+
+	footer {
+		height: 90px;
+	}
+}
   
 
 
-/*@media (min-width:1440px) {
+@media (min-width:1440px) {
 	
 	main {
 		width: 1440px;
@@ -689,4 +781,4 @@ footer .external-links {
 		border-right: 1px solid rgba(252, 55, 184, 0.2);
 	}
 	
-}*/
+}
