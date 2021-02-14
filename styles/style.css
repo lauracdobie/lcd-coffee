@@ -82,7 +82,7 @@ h1, .projects h2 {
 	min-height: 484px;
 }
 
-.blurb, .project-description, .owl {
+.blurb, .project-description, .project {
 	margin-left:140px;
 	border-left: 1px solid rgba(252, 55, 184, 0.2);
 }
@@ -539,7 +539,7 @@ footer .external-links {
 .project-title {
 	margin-left: 52px;
 	margin-right: 52px;
-	margin-top: 31px;
+	padding-top: 31px;
 	padding-bottom: 90px;
 	border-bottom: 1px solid rgba(252, 55, 184, 0.2); 
 }
