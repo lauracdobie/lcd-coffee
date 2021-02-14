@@ -757,7 +757,7 @@ footer .external-links {
 	.quotes-container li {
 		font-size: 26px;
 		padding: 0 0 20px 50px;
-		line-height: 1.1;
+		line-height: 1;
 	}
 
 	.quotes-container li:before {
@@ -766,6 +766,200 @@ footer .external-links {
 
 	footer {
 		height: 90px;
+	}
+
+	.projects .project-description .cta-container p {
+		font-size: 24px;
+	}
+
+	.cta-arrow {
+		width: 80px;
+		height: 80px;
+		margin-left: 48px;
+		background-size: 31px 18px;
+	}
+
+	.projects .project-description .cta-container .text-link {
+		margin-left: 26px;
+		transform: translateX(-22px);
+	}
+
+	.projects .project-description .cta-container .conjunction {
+		transform: translateX(-22px);
+	}
+
+	.icon-link-container img {
+		width: 30px;
+	}
+
+	footer .external-links {
+		grid-template-columns: 3fr 1fr 1fr ;
+	}
+}
+
+@media (max-width:800px) {
+	.projects .project-description .cta-container {
+		display: block;
+		align-items: center;
+		margin-top: 20px;
+	}
+
+	.projects .project-description .cta-container .cta {
+		margin-bottom: 20px;
+	}
+
+	.projects .project-description .cta-container .text-link {
+		transform: translateX(0px);
+		display: inline;
+	}
+
+	.projects .project-description .cta-container .conjunction {
+		transform: translateX(0px);
+		margin-top: 30px;
+		display: inline;
+	}
+
+	.cta {
+		display: static;
+		width: 301px;
+	}
+}
+
+@media (max-width:700px) {
+	.relevant-qualifications h4, .taglist li, .employment-container h4, .qualification h4, .project-title h3 {
+		font-size: 9px;
+	}
+
+	.taglist li {
+		padding: 6px 8px 5px 8px;
+		margin-right: 2px;
+		margin-bottom: 6px;
+	}
+
+	.hiring-reasons li {
+		font-size: 26px;
+		line-height: 1.1;
+		padding: 28px 0 28px 50px;
+	}
+
+	.primary-list, .project-title h2 {
+		font-size: 48px;
+	}
+
+	.taglist {
+		margin-bottom: 0;
+	}
+
+	.projects .project-description p {
+		font-size: 28px;
+		line-height: 1;
+	}
+
+	.projects .project-description {
+		padding: 40px 52px 40px 48px;
+		min-height: 300px;
+	}
+
+	.current-employment-container h3 {
+		font-size: 26px;
+		margin-top: 16px;
+		margin-bottom: 24px;
+	}
+
+	body {
+		font-size: 18px;
+	}
+
+	.past-employment {
+		padding: 26px 0;
+	}
+
+	.common {
+		padding-bottom: 20px;
+	}
+
+	.qualification h3 {
+		font-size: 26px;
+		line-height: 1;
+		color: #fff;
+		margin-bottom: 16px;
+	}
+
+	.quotes-container li {
+		font-size: 20px;
+		padding: 0 0 20px 50px;
+		line-height: 1.1;
+	}
+
+	.quotes-container li:before {
+		font-size: 32px;
+		line-height: 1;
+	}
+}
+
+@media (max-width:500px) {
+	header nav a, h2, .project-column h3 {
+		font-size: 12px;
+	}
+
+	header {
+		height: 70px;
+	}
+
+	.logo img {
+		width: 34px;
+	}
+
+	.logo {
+		padding: 15px 15px;
+	}
+
+	.intro .vertical-heading, .projects .vertical-heading, .projects-wrapper .vertical-heading {
+		position: static;
+		transform: rotate(0deg) translateX(0%);
+		padding: 20px 30px;
+		width: 100%;
+		text-align: left;
+	}
+
+	h1, .projects h2 {
+		font-size: 20px;
+		line-height: 1;
+		letter-spacing: 0.1em;
+	}
+
+	.blurb {
+		margin-left: 0;
+		border-left: none;
+		padding: 0 30px;
+		font-size: 20px;
+		min-height: 0;
+	}
+
+	.half-container {
+		display: block;
+	}
+
+	.relevant-qualifications h3 {
+		font-size: 26px;
+		line-height: 1;
+	}
+
+	.common {
+		padding: 30px;
+	}
+
+	.half h2 {
+		margin-bottom: 30px;
+	}
+
+	body {
+		font-size: 16px;
+		line-height: 1.1;
+	}
+
+	.relevant-qualifications .date {
+		margin-top: 20px;
 	}
 }
   
