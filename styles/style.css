@@ -24,7 +24,6 @@ header {
 
 .selected {
 	background-color: rgba(252, 55, 184, 0.2);
-
 }
 
 .logo img {
@@ -74,7 +73,6 @@ header nav a {
 	transform: rotate(-90deg) translateX(-100%);
 	transform-origin: left top;
 	padding: 54px 60px 0 0;
-
 }
 
 h1, .projects h2 {
@@ -108,7 +106,6 @@ h1, .projects h2 {
 .common {
 	padding: 52px;
 	border-bottom: 1px solid rgba(252, 55, 184, 0.2);
-
 }
 
 .half-container {
@@ -212,7 +209,6 @@ h1, .projects h2 {
 
 .hiring-reasons {
 	margin-top: 55px;
-	
 }
 
 .hiring-reasons li {
@@ -847,7 +843,7 @@ footer .external-links {
 	}
 
 	.taglist {
-		margin-bottom: 0;
+		margin-bottom: 10px;
 	}
 
 	.projects .project-description p {
@@ -928,7 +924,7 @@ footer .external-links {
 		letter-spacing: 0.1em;
 	}
 
-	.blurb {
+	.blurb, .project-description, .project {
 		margin-left: 0;
 		border-left: none;
 		padding: 0 30px;
@@ -961,6 +957,102 @@ footer .external-links {
 	.relevant-qualifications .date {
 		margin-top: 20px;
 	}
+	
+	.hiring-reasons li {
+		font-size: 20px;
+		padding-top: 16px;
+		padding-bottom: 16px;
+		padding-left: 32px;
+	}	
+	
+	.hiring-reasons li:before {
+		font-size: 10px;
+		transform: translateX(-32px) translateY(-0.6em);
+	}
+	
+	.primary-list {
+		margin-top: 10px;
+	}
+	
+	.primary-list li {
+		font-size: 36px;
+		line-height: 0;
+	}
+	
+	.projects .project-description {
+		padding: 0px 30px 40px 30px;
+	}
+	
+	.projects .project-description .cta-container {
+		margin-top: 30px;
+	}
+	
+	.employment-container {
+		display: block;
+	}
+	
+	.bullets li:before {
+		transform: translateX(-23px);
+	}
+	
+	.past-employment-container {
+		margin-top: 30px;
+		padding: 0;
+	}
+	
+	.past-qualifications .qualifications-container {
+		border: none;
+	}
+	
+	.qualification {
+		width: 100%;
+	}
+	
+	.qualification:nth-child(even) {
+		border-left: none;
+	}
+	
+	.quotes {
+		padding:30px
+	}
+	
+	.quotes-container {
+		display: block;
+	}
+	
+	.quotes-container li {
+		padding: 10px 0 20px 50px;
+	}
+	
+	.quote:nth-child(even) {
+		margin-left: 0;
+	}
+	
+	.quote:nth-child(2) {
+		border-top: none;
+	}
+	
+	.quote:last-child {
+		border-bottom: none;
+	}
+	
+	footer {
+		display: block;
+	}
+	
+	footer .external-links {
+		height: 80px;
+	}
+	
+	footer .references p {
+		padding: 20px 10px;
+	}
+	
+	footer .references {
+		border-top: 1px solid rgba(252, 55, 184, 0.2);
+		margin: 0;
+	}	
+	
 }
   
 
