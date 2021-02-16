@@ -913,7 +913,7 @@ footer .external-links {
 	.intro .vertical-heading, .projects .vertical-heading, .projects-wrapper .vertical-heading {
 		position: static;
 		transform: rotate(0deg) translateX(0%);
-		padding: 20px 30px;
+		padding: 40px 30px 20px 30px;
 		width: 100%;
 		text-align: left;
 	}
@@ -1006,6 +1006,7 @@ footer .external-links {
 	
 	.qualification {
 		width: 100%;
+		padding: 40px 30px;
 	}
 	
 	.qualification:nth-child(even) {
