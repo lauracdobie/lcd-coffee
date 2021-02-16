@@ -551,7 +551,8 @@ footer .external-links {
 	margin-right: 52px;
 	padding-top: 31px;
 	padding-bottom: 90px;
-	border-bottom: 1px solid rgba(252, 55, 184, 0.2); 
+	border-bottom: 1px solid rgba(252, 55, 184, 0.2);
+	text-decoration: none; 
 }
 
 .project-title .cta-arrow {
