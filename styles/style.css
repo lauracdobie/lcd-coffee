@@ -787,6 +787,50 @@ footer .external-links {
 	.icon-link-container img {
 		width: 30px;
 	}
+	
+	.project-title {
+		border: none;
+		padding-bottom: 0;
+	}
+	
+	.project-details {
+		display: block;
+		line-height: 1.4;
+		padding-top: 20px;
+	}
+	
+	.project-details .taglist {
+		margin-top: 10px;
+		margin-bottom: 0;
+	}
+	
+	.project-column {
+		margin: 0 48px 0px 48px;
+		border-top: 1px solid rgba(252, 55, 184, 0.1);
+		padding: 30px 30px;
+	}
+	
+	.project-column:nth-child(2) {
+		border-left: none;
+		border-right: none;
+	}
+	
+	.bullets li {
+		margin-bottom: 10px;
+	}
+	
+	.projects-wrapper .vertical-heading {
+		position: static;
+		transform: rotate(0deg) translateX(0%);
+		padding: 40px 30px 0 52px;
+		width: 100%;
+		text-align: left;
+	}
+	
+	.project {
+		margin-left: 0;
+		border-left: none;
+	}
 
 	footer .external-links {
 		grid-template-columns: 3fr 1fr 1fr ;
@@ -1035,6 +1079,26 @@ footer .external-links {
 	
 	.quote:last-child {
 		border-bottom: none;
+	}
+	
+	.projects-wrapper .projects-header {
+		padding-bottom: 0px;
+	}
+	
+	.project-title, .project-column {
+		margin: 0;
+	}
+	
+	.project-title h2{
+		font-size: 36px;
+	}
+	
+	.project-title .cta-arrow {
+		width: 45px;
+	}
+	
+	.project-subtitle {
+		transform: translateY(0.4em);
 	}
 	
 	footer {
