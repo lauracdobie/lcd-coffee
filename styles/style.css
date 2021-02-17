@@ -259,11 +259,24 @@ h1, .projects h2 {
 	display: inline-block;
 	width: 1em;
 	height: 1em;
-	background-image: url("../images/projecticon-isolation.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center center;
+}
+
+.isolation {
+	background-image: url("../images/projecticon-isolation@2x.png");
 	transform: translateY(0.1em);
+}
+
+.owl {
+	background-image: url("../images/projecticon-owldash@2x.png");
+	transform: translateY(0.16em) translateX(0.05em);
+}
+
+.gym {
+	background-image: url("../images/projecticon-gymbuddy@2x.png");
+	transform: translateY(0.16em) translateX(0.09em);
 }
 
 .projects .project-description .cta-container {
