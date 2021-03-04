@@ -497,6 +497,7 @@ footer .external-links {
 
 .email-link-container, .icon-link-container, .references {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
@@ -513,6 +514,10 @@ footer .external-links {
 	font-weight: 800;
 	font-size: 11px;
 	letter-spacing: 0.15em;
+}
+
+.print-statement {
+	display: none;
 }
 
 .project {
@@ -1011,7 +1016,7 @@ footer .external-links {
 	footer .references {
 		border-top: 1px solid rgba(252, 55, 184, 0.2);
 		margin: 0;
-	}	
+	}
 	
 }
   
@@ -1308,6 +1313,19 @@ footer .external-links {
 
 	.references p {
 		font-size: 7pt;
+	}
+
+	.references .print-statement {
+        color: #9c9c9c;
+    }
+
+	.print-statement {
+		display: block;
+	}
+
+	.vertical-heading .projects-header {
+		transform: rotate(0deg) translateX(0);
+		padding: 0;
 	}
 
 
