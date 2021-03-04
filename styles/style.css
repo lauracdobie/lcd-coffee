@@ -1324,9 +1324,33 @@ footer .external-links {
 		display: block;
 	}
 
-	.vertical-heading .projects-header {
+	.projects-wrapper .vertical-heading {
 		transform: rotate(0deg) translateX(0);
-		padding: 0;
+		padding-left: 54px;
+		padding-top: 54px;
+		position: static;
+	}
+
+	.project {
+		margin-left: 0;
+		border-left: none;
+	}
+
+	.project h2 {
+		color: #9c9c9c;
+		font-size: 36px;
+	}
+
+	.project-title  {
+		padding-bottom: 30px;
+	}
+
+	.bullets li {
+		font-size: 10pt;
+	}
+
+	.project-column h3 {
+		font-size: 9pt;
 	}
 
 
