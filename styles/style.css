@@ -1317,11 +1317,11 @@ footer .external-links {
 
 	.references .print-statement {
         color: #9c9c9c;
+		padding-top: 5px;
     }
 
 	.print-statement {
 		display: block;
-		padding-top: 5px;
 	}
 
 	.vertical-heading .projects-header {
