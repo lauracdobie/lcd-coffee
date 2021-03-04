@@ -1321,6 +1321,7 @@ footer .external-links {
 
 	.print-statement {
 		display: block;
+		padding-top: 5px;
 	}
 
 	.vertical-heading .projects-header {
