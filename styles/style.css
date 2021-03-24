@@ -578,7 +578,9 @@ footer .external-links {
 	border-left: none;
 	transform: translateY(0.25em);
 	margin: 0;
-}	
+}
+
+
 
 @media (max-width:1024px) {
 	.blurb {
@@ -735,6 +737,7 @@ footer .external-links {
 	footer .external-links {
 		grid-template-columns: 3fr 1fr 1fr ;
 	}
+
 }
 
 @media (max-width:800px) {
