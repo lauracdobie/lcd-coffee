@@ -135,7 +135,7 @@ h1, .projects h2 {
 	color: #fff;
 }
 
-.relevant-qualifications h4, .taglist li, .employment-container h4, .qualification h4, .project-title h3 {
+.relevant-qualifications h4, .taglist li, .employment-container h4, .qualification h4, .project-title h3, .learning h2 {
 	color: rgb(241, 191, 164);
 	text-transform: uppercase;
 	font-family: 'Criteria CF';
@@ -204,6 +204,25 @@ h1, .projects h2 {
 
 .primary-list li:last-child:after {
 	content: "";
+}
+
+.learning {
+	border-top: 1px solid rgba(252, 55, 184, 0.1);
+	padding-top: 30px;
+	
+}
+
+.learning h2 {
+	display: inline;
+	padding-right: 1.5em;
+	margin-right: 1.5em;
+	border-right: 1px solid rgba(252, 55, 184, 0.3);
+}
+
+.learning p {
+	color: #fff;
+	display: inline-block;
+	transform: translateY(0.1em);
 }
 
 
@@ -766,7 +785,7 @@ footer .external-links {
 }
 
 @media (max-width:700px) {
-	.relevant-qualifications h4, .taglist li, .employment-container h4, .qualification h4, .project-title h3 {
+	.relevant-qualifications h4, .taglist li, .employment-container h4, .qualification h4, .project-title h3, .learning h2 {
 		font-size: 9px;
 	}
 
@@ -787,7 +806,12 @@ footer .external-links {
 	}
 
 	.taglist {
-		margin-bottom: 10px;
+		margin-bottom: 20px;
+	}
+	
+	.learning {
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 
 	.projects .project-description p {
@@ -921,6 +945,16 @@ footer .external-links {
 	.primary-list li {
 		font-size: 36px;
 		line-height: 0;
+	}
+	
+	.learning h2 {
+		display: block;
+		margin-bottom: 6px;
+		border: none;
+	}
+	
+	.learning p {
+		transform: translateY(0);
 	}
 	
 	.projects .project-description {
@@ -1096,11 +1130,11 @@ footer .external-links {
 		font-size: 16pt;
 	}
 
-	.relevant-qualifications h4, .taglist li, .employment-container h4, .qualification h4 {
+	.relevant-qualifications h4, .taglist li, .employment-container h4, .qualification h4, .learning h2 {
 		font-size: 5pt;
 	}
 
-	.relevant-qualifications h4, .taglist li, .employment-container h4, .qualification h4, .projects .project-description .cta-container .conjunction, .projects .project-description p em {
+	.relevant-qualifications h4, .taglist li, .employment-container h4, .qualification h4, .projects .project-description .cta-container .conjunction, .projects .project-description p em, .learning h2 {
 		color: rgba(36, 8, 37, 0.4);
 	}
 
@@ -1119,7 +1153,7 @@ footer .external-links {
 		margin-top: 0.5cm;
 	}
 	
-	.relevant-qualifications h3, .text-link, .relevant-qualifications .date, .self-study h3, .primary-list, .hiring-reasons em, .projects .project-description p, .employment-container h3, .qualification h3 {
+	.relevant-qualifications h3, .text-link, .relevant-qualifications .date, .self-study h3, .primary-list, .hiring-reasons em, .projects .project-description p, .employment-container h3, .qualification h3, .learning p {
 		color: #240825;
 	}
 
@@ -1155,6 +1189,10 @@ footer .external-links {
 	.primary-list {
 		margin-top: 0.5cm;
 		font-size: 28pt
+	}
+	
+	.learning {
+		padding-top: 0.3cm;
 	}
 
 	.projects .vertical-heading {
