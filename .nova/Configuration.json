@@ -1,0 +1,6 @@
+{
+  "index.ignored_file_patterns" : [
+    ".DS_Store"
+  ],
+  "workspace.name" : "LCD Build"
+}
