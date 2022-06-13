@@ -210,7 +210,8 @@ h1, .projects h2 {
 .primary-list li:after {
 	content: "/";
 	margin-left: 0.2em;
-	color: var(--beetroot-20);
+	color: var(--beetroot);
+	opacity: 0.3;
 }
 
 .primary-list li:last-child:after {
