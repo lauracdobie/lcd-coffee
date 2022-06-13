@@ -2,5 +2,6 @@
   "index.ignored_file_patterns" : [
     ".DS_Store"
   ],
-  "workspace.name" : "LCD Build"
+  "workspace.color" : 9,
+  "workspace.name" : "LCD"
 }
